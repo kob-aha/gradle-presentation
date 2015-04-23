@@ -2,7 +2,8 @@
 target/
 .gradle
 build/
-wrapper/
+**/wrapper/dists/
 *.class
 *.iml
 *~
+
