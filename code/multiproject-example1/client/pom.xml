@@ -6,14 +6,14 @@
     <modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.gradleintro.multi</groupId>
+		<groupId>org.gradleintro</groupId>
 		<artifactId>parent</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 	    
-    <artifactId>service</artifactId>    
+    <artifactId>client</artifactId>    
     <packaging>jar</packaging>
-    <name>Multi module example - Service</name>
+    <name>Multi module example - Client</name>
     
 	<dependencies>
 		<dependency>
@@ -24,6 +24,10 @@
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>                
 		</dependency>
-	</dependencies>    
-	
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>server</artifactId>
+        </dependency>
+	</dependencies>
+
 </project>

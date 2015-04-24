@@ -1,4 +1,4 @@
-package org.gradleintro.service;
+package org.gradleintro.server;
 
 public class MessageService {
 

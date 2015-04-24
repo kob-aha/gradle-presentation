@@ -1,7 +1,7 @@
-package org.gradleintro.test.service;
+package org.gradleintro.test.server;
 
 import org.junit.Assert;
-import org.gradleintro.service.MessageService;
+import org.gradleintro.server.MessageService;
 import org.junit.Before;
 import org.junit.Test;
 

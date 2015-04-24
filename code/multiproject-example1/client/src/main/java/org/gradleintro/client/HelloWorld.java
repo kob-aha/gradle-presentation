@@ -1,7 +1,7 @@
-package org.gradleintro.app;
+package org.gradleintro.client;
 
 import org.apache.log4j.Logger;
-import org.gradleintro.service.MessageService;
+import org.gradleintro.server.MessageService;
 
 public class HelloWorld {
 
